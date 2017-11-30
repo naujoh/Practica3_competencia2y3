@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_coupon_code"
+        android:text="Codigo"
+        android:textSize="20dp"
+        android:textColor="#101010"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_coupon_end_date"
+        android:textSize="16dp"
+        android:textColor="#e70e24"
+        android:layout_marginLeft="8dp"
+        android:text="Fecha limite"
+        android:layout_below="@+id/tv_coupon_code"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_coupon_desc"
+        android:textSize="20dp"
+        android:textColor="#787878"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/tv_coupon_code"
+        android:text="Descripcion"
+        />
+</RelativeLayout>
